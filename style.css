@@ -10,32 +10,30 @@ a {
 
 #header {
   position: relative;
-  width: 100%;
-  height:300px;
+  /*width: 100%;
+  height:300px;*/
   /*background-image: url("https://cdn.pixabay.com/photo/2017/07/01/19/48/background-2462431_960_720.jpg");*/
-background-image:url('images/team1.jpeg');
+/*background-image:url('images/team1.jpeg');*/
 
 }
-#header img {
-  display: block;
 
-  margin-left: auto;
-  margin-right: auto;
-}
-#header > p {
+#header > h1 {
+  /*top: 120px;
   position: absolute;
-  z-index: 2;
-  width: 100%;
-  text-align: center;
-  top: 120px;
   text-transform: uppercase;
-  color: #fff;
-  font-size: 3em;
-  font-family: "Roboto", sans-serif;
+  text-align: center;
+  z-index: 2;*/
+  width: 100%;
+  
+  
+  
+  color: #00acb0;
+  font-size: 48px;
+  /*font-family: "Roboto", sans-serif;*/
   letter-spacing: 0.05em;
 }
 
-.overlay {
+/*.overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -44,14 +42,14 @@ background-image:url('images/team1.jpeg');
   background: linear-gradient(to right, black, #00acb0);
   opacity: 0.5;
   z-index: 1;
-}
+}*/
 
 .c-text {
   width: 70%;
   margin: 0 auto;
   padding-top: 50px;
   line-height: 2;
-  font-family: "Montserrat", sans-serif;
+  /*font-family: "Montserrat", sans-serif;*/
   color: ;
   font-size: 20px;
   text-align: center;
@@ -62,7 +60,7 @@ background-image:url('images/team1.jpeg');
   margin-bottom: 90px;
   position: relative;
   text-transform: uppercase;
-  font-family: "Pathway Gothic One", sans-serif;
+  /*font-family: "Pathway Gothic One", sans-serif;*/
   font-size: 25px;
   color: #00acb0;
 }
@@ -90,11 +88,13 @@ hr {
 #openings {
   width: 100%;
   height: 600px;
-  background-image: linear-gradient(to bottom right, #f2f2f2, #ff9900);
+  /*background-image: linear-gradient(to bottom right, #f2f2f2, #ff9900);*/
+  background-color:#ededed;
 }
-#openings h2 {
-  font-family: "Lato", sans-serif;
-  color: #4d4d4d;
+.heading {
+  /*font-family: "Lato", sans-serif;*/
+  color: #000;
+  font-size:20px;
   text-align: center;
   padding-top: 50px;
   margin-bottom: 35px;
@@ -106,12 +106,12 @@ hr {
 .role {
   display: block;
   width: 100%;
-  color: #ff9900;
+  color: #414141;
   background-color: #fff;
   padding: 8px 0px 2px 20px;
   height: 40px;
   margin-bottom: 10px;
-  font-family: "Pathway Gothic One", sans-serif;
+  /*font-family: "Pathway Gothic One", sans-serif;*/
   font-size: 1.5em;
 }
 .apply {
@@ -126,7 +126,7 @@ hr {
   width: 180px;
   height: 75px;
   padding-top: 7px;
-  background-color: #ff9900;
+  background-color: #00acb0;
   text-align: center;
   border-width: 0px;
   box-shadow: 1px 1px 2px #000;
@@ -135,7 +135,7 @@ hr {
   /*font-family:'Roboto', sans-serif;*/
 
   color: #fff;
-  font-family: "Lato", sans-serif;
+  /*font-family: "Lato", sans-serif;*/
 }
 .apply .tagm {
   font-size: 1.3em;
@@ -156,7 +156,70 @@ hr {
   padding-bottom: 10px;
   padding-left: 15px;
   color: #4d4d4d;
-  font-family: "Montserrat", sans-serif;
+  /*font-family: "Montserrat", sans-serif;*/
+}
+
+.third
+{
+  width:30%;
+  margin-right:2%;
+  float:left;
+}
+.price{
+  text-align: center;
+  background: #f7f7f7;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 1em;
+  width: 29%;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  -webkit-box-shadow:  0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow:  0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+.price:hover{
+  -webkit-box-shadow:  0px 0px 6px 0px rgba(0, 0, 0, .2);
+  box-shadow:  0px 0px 6px 0px rgba(0, 0, 0, .2);
+  background: #fff;
+}
+.price-detail{
+  padding: 1.5em;
+  padding-top: .5em;
+  font-style: italic;
+}
+.price h3{
+  margin: 0;
+  padding: 1em;
+  background-color:#646d72;
+  color:#fff;
+}
+.clearfix
+{
+  width:90%;
+  margin:0 auto;
+  padding-left:20px;
+}
+.clearfix:after
+{
+  content:" ";
+  display:table;
+  clear:both;
+}
+.last
+{
+  margin-right:0;
+  padding-right:0;
+}
+
+.third.price img
+{
+  height:10%;
+  width:auto;
+  margin-top:10px;
 }
 /*body
 {

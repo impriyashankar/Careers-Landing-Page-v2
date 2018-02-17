@@ -1,9 +1,8 @@
 $(document).ready(function() {
+  $(".desc").hide();
   $(".o-item").click(function() {
-    $(".desc").hide();
-    $(this)
-      .children(".desc")
-      .show();
+    
+    $(this).children(".desc").toggle();
   });
 });
 
