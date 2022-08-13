@@ -6,7 +6,7 @@ The page has options for the user to choose the type of role and be redirected t
 
 
 
-## Technologies Used
+## Technologies Used 
 - HTML
 - CSS
 - jQuery 
